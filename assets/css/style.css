@@ -21,7 +21,16 @@ header {
 
         & nav {
             display: flex;
-            gap: 50px;                
+            gap: 50px;
+
+            & a {
+                color: #EFEFEFB8;
+                font-size: 18px;
+            }
+
+            & a:first-child {
+                color: #FFF;
+            }
+        }
     }
-  }
 }
